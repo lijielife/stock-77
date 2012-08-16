@@ -1,5 +1,5 @@
 <?php
-
+//to see changes
 include "../library/conexion.php";
 $idi = $_GET[id];
 $q = mysql_query("SELECT * FROM categorias WHERE id_cat = $idi LIMIT 1");
